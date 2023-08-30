@@ -8,3 +8,4 @@ display all files with user and group IDs displayed numerically
 8-firstdelete  deletes the file betty in /tmp/my_first_directory
 9-firstdirdeletion deletes my_first_directory in /tmp
 10-back takes you one directory back
+13-symbolic_link creates a soft link to /bin/ls
