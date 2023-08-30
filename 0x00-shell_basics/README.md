@@ -5,3 +5,4 @@ this script prints the current working directory
 4-listmorefiles Display current directory contents, including hidden files (starting with .). using the long format.
 display all files with user and group IDs displayed numerically
 7-movethatfile moves /tmp/betty to /tmp/my_first_directory
+8-firstdelete  deletes the file betty in /tmp/my_first_directory
