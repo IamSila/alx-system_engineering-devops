@@ -9,3 +9,4 @@ display all files with user and group IDs displayed numerically
 9-firstdirdeletion deletes my_first_directory in /tmp
 10-back takes you one directory back
 13-symbolic_link creates a soft link to /bin/ls
+101-clean_emacs deletes any file that ends with ~ in the current working directory
