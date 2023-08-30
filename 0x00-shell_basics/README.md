@@ -6,3 +6,4 @@ this script prints the current working directory
 display all files with user and group IDs displayed numerically
 7-movethatfile moves /tmp/betty to /tmp/my_first_directory
 8-firstdelete  deletes the file betty in /tmp/my_first_directory
+9-firstdirdeletion deletes my_first_directory in /tmp
