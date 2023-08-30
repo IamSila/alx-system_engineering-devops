@@ -10,3 +10,4 @@ display all files with user and group IDs displayed numerically
 10-back takes you one directory back
 13-symbolic_link creates a soft link to /bin/ls
 101-clean_emacs deletes any file that ends with ~ in the current working directory
+102-tree creates a directory such as this/is/engineering
