@@ -2,3 +2,4 @@
 1. Who am I prints the username of the current user
 2-groups prints all the groups
 3-new_owner of the file hello to the user betty
+4-empty creates an empty files called hello
