@@ -13,3 +13,4 @@
 12-newest_files displays 10 newest files in a directory
 13-unique displays lines that appear only once
 14-findthatword displays any occurence of root
+15-countthatword returns count of all 'bin' occurences in /etc/passwd
