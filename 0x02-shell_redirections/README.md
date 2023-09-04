@@ -6,3 +6,4 @@
 5-firstlines prints first 10 lines
 6-third_line prints the third line of the file iacta
 7-file creates a file named exactly \*\'Best School\'\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+8-cwd_state writes into the file ls_cwd_content the result of the command ls -la
