@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 #this program puts into use the use of if statements and while loop
 
-x=0
+i=0
 
-while [ "${x}" -lt 10 ]
+while [ "${i}" -lt 10 ]
 do
-	echo "Best school"
-	if [ "${x}" -eq 8 ]
+	echo "Best School"
+	if [ "${i}" -eq 8 ]
 	then
 		echo "Hi"
 	fi
-	((x++))
+	((i++))
 done
 
