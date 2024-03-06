@@ -2,18 +2,18 @@
 #this program prints "bad luck on 4th, 8th times and "best school"
 #+ on the other iterations between 1 an 10
 
-i=0
+x=0
 
-while [ "${i}" -lt 10 ]
+while [ "${x}" -lt 10 ]
 do
-	if [ "${i}" -eq 3 ]
+	if [ "${x}" -eq 3 ]
 	then
 		echo "bad luck"
-	elif [ "${i}" -eq 7 ]
+	elif [ "${x}" -eq 7 ]
 	then
 		echo "good luck"
 	else
 		echo "Best School"
 	fi
-	((i++))
+	((x++))
 done
