@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this program uses until to print "Best School" ten times
+
+x=0
+
+until [ "${x}" -eq 10 ]; do echo "Best School"; ((x++)); done
+
