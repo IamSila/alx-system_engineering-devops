@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#the trap command in use
-#+ syntax trap [ action ] command
+#the trap command in use 
 
 trap "echo \"I am invincible!!!\"" SIGTERM
 
