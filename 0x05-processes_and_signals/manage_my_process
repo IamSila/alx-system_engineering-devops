@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#indefinately prints "I am alive" to /tmp/my_process
+# in between the string the process should pause for 2 seconds
+
+while true
+do
+    echo "I am alive" >> /tmp/my_process
+    sleep 2
+done
