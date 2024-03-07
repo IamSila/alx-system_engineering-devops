@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# parsing a file called apache log files
+# grouping of the visitors and ip code
+
+awk '{print $1 " " $9}'  apache-access.log | sort | uniq -c | sort -rn
