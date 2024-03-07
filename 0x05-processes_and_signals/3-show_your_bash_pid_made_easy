@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# getting bash pid without using ps
+
+pgrep -fl bash
