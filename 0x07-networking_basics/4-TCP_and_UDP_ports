@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# netcat script that displays pid/program name of listening ports
+
+sudo netstat -pl
