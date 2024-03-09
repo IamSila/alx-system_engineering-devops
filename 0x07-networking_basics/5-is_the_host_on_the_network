@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# perfoming a ping to 8.8.8.8
+# Send ICMPs Request to an IP to see the time to response
 
-if [ "{$1}" ]
+if [ "${1}" ]
 then
-    ping -c 5 "${1}"
+	ping -c 5 "${1}"
 else
-    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 fi
