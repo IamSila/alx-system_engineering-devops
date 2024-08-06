@@ -1,8 +1,7 @@
 #!/usr/bin/pup
 # installing flusk v 2.1.0 on an agent 
 
-package { 'flask':
+package {'flask':
     ensure   => '2.1.0',
-    name    => 'flask',
     provider => 'pip3',
 }
