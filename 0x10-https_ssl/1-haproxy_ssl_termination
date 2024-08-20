@@ -13,5 +13,5 @@ frontend iamitsfoss-frontend
 backend iamitsfoss-backend
     http-request redirect scheme https if  !{ ssl_fc }
     balance roundrobin
-    server 327381-web-01 52.3.220.157:80 check
-    server 327381-web-02 54.197.21.177:80 check
+    server 327381-web-01 54.236.47.20:80 check
+    server 327381-web-02 18.210.18.28:80 check
